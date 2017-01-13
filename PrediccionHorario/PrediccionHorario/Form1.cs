@@ -24,7 +24,7 @@ namespace PrediccionHorario
         {
             Cg_Cls_LeerConexion conexion = new Cg_Cls_LeerConexion();
 
- 
+ //prueba
             ClsTransacciones Obj_Transacciones = new ClsTransacciones("Provider=Ifxoledbc;Persist Security Info=False;User ID=sirh;Data Source=sacdmnom@hacprdinf;Extended Properties=;Password=s4CdmN0M", "Infiernix");
 
             string CadenaSQL = " select first 1 * from empleado";
